@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -Map=DiscoveryTemplate.map -O0 --gc-sections -lm -lgcc -lc -lnosys -lstdc++ -LC:\CooCox\CoIDE\configuration\ProgramData\CNCControl -TC:\CooCox\CoIDE\configuration\ProgramData\CNCControl/arm-gcc-link.ld -g -L..\..\.. -lm">
+      <target file="DiscoveryTemplate.elf" lastModified="157f335d86a">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="157f335bf0a"/>
+         <source file="..\obj\string.o" lastModified="157f335bfcf"/>
+         <source file="..\obj\stm32f4xx_sdio.o" lastModified="157f335c0a2"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="157f335c1ac"/>
+         <source file="..\obj\stm32f4xx_pwr.o" lastModified="157f335c24b"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="157f335c2ba"/>
+         <source file="..\obj\stm32f4xx_iwdg.o" lastModified="157f335c351"/>
+         <source file="..\obj\main.o" lastModified="157f335c414"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="157f335c517"/>
+         <source file="..\obj\timers.o" lastModified="157f335c5be"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="157f335c6e5"/>
+         <source file="..\obj\tasks.o" lastModified="157f335c871"/>
+         <source file="..\obj\stm32f4xx_fsmc.o" lastModified="157f335c969"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="157f335ca31"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="157f335cb01"/>
+         <source file="..\obj\list.o" lastModified="157f335cb81"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="157f335cc0a"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="157f335cd37"/>
+         <source file="..\obj\port.o" lastModified="157f335cdae"/>
+         <source file="..\obj\queue.o" lastModified="157f335cfb1"/>
+         <source file="..\obj\croutine.o" lastModified="157f335d03d"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="157f335d125"/>
+         <source file="..\obj\event_groups.o" lastModified="157f335d1bb"/>
+         <source file="..\obj\stm32f4xx_rng.o" lastModified="157f335d247"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="157f335d2db"/>
+         <source file="..\obj\misc.o" lastModified="157f335d365"/>
+         <source file="..\obj\heap_2.o" lastModified="157f335d3ec"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="157f335d62b"/>
+      </target>
+   </processor>
+</history>
